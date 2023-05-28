@@ -1,4 +1,4 @@
-# [VISIT OUR WEBSITE](https://bitmath.xyz/)
+# [VISIT OUR WEBSITE]([https://bitmath.xyz/](https://uboss.pages.dev/))
 # uBoss
 An unblocking method that uses the [POINT-BLANK](https://github.com/3kh0/ext-remover).
 Credit to: Bypassi for orignal point blank, Aka, but nice for ui, and genreral, Stodgy for beta testing, and HeyoltsCookie for idea, and this repo.
