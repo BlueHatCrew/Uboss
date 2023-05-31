@@ -10,7 +10,7 @@ function swamp() {
   moms the <strong> BOSS </strong> </h1> </center></head><br> <h4> <center> This is based off
   of the original swamp launcher, the new Point Blank and Aka, but nice#5094 for the Chrome 
   extension ID disabler. <hr> <strong> Credits: </strong> Aka, but nice (for the main code 
-  layout and javascript), Bypassi (for the original Swamp code and Point-Blank), Lego Axolotl 
+  layout and javascript), Bypassi (for Point-Blank), Lego Axolotl 
   (For name idea, and beta testing), and finally, the 
   <a href="https://www.youtube.com/@thebluehatcrew/Sub_Confirmation=1">BlueHatCrew</a> 
   for making the UI and initial idea of this. </h4> </center> <hr> <br><div>
