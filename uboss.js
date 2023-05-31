@@ -125,18 +125,12 @@ dding:10px 17px;border:none}button,input{background-color:#fff;padding:10px 20px
     </body><br>
 <kbd>opener.chrome.extension.getBackgroundPage().ur = null </kbd> <p> To disable it until restart.
 </div></center>`;
-  document.getElementById("disable").addEventListener(
-    "click",
-    function () {
-      var ids = document
-        .getElementById("id")
-        .value.split(",")
-        .forEach((e) => {
-          chrome.management.setEnabled(ids.trim(), false);
-        });
-    },
-    !1
-  );
+document.getElementById("disable").addEventListener("click", function () {
+  var ids = document.getElementById("id").value.split(",");
+  ids.forEach((id) => {
+    chrome.management.setEnabled(id.trim(), false);
+  });
+});
   document.title = "Uboss [Launcher]";
   chrome.management.getAll(function (extensions) {
     extensions.forEach((extension) => {
