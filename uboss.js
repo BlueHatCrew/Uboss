@@ -1,9 +1,10 @@
 var isOnExtension = true;
-if (document.domain !== "glitch.com") {
+if (window.location.host !== "glitch.com") {
   isOnExtension = false;
   alert("Uboss can only be used when iboss is present and on; maybe you disabled it?");
   swamp = null;
 }
+
 function swamp() {
   var chrome = window.chrome;
   document.documentElement.innerHTML = `<head> <center> <h1> [UBoss]  <strong> Ur </strong>
