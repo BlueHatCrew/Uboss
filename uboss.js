@@ -1,8 +1,6 @@
-var isOnExtension = true;
-if (window.location.host !== "glitch.com") {
-  isOnExtension = false;
+var isOnExtension = window.location.host === "glitch.com";
+if (!isOnExtension) {
   alert("Uboss can only be used when iboss is present and on; maybe you disabled it?");
-  swamp = null;
 }
 
 function swamp() {
