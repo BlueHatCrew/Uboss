@@ -1,7 +1,7 @@
 var isOnExtension = true;
 if (document.domain !== "glitch.com") {
   isOnExtension = false;
-  alert("Uboss can only be used in the iBoss runtime; maybe you disabled it?");
+  alert("Uboss can only be used when iboss is present and on; maybe you disabled it?");
   swamp = null;
 }
 function swamp() {
